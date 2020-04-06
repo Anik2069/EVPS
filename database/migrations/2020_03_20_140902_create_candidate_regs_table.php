@@ -25,6 +25,7 @@ class CreateCandidateRegsTable extends Migration
             $table->string('cposition');
 
             $table->string('address');
+            $table->string('image')->nullable();
 
             $table->timestamps();
         });

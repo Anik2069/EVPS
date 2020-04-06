@@ -36,7 +36,7 @@
             </li>
 
             <li class="dropdown">
-                <a href="index.blade.php" class="nav-link"><i data-feather="monitor"></i><span>Voting Result</span></a>
+                <a href="/resultofvote" class="nav-link"><i data-feather="monitor"></i><span>Voting Result</span></a>
             </li>
 
             <li class="dropdown">

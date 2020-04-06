@@ -26,12 +26,21 @@ class CandidateRegController extends Controller
             $can->cname = $request->input('cname');
             $can->cposition = $request->input('cp');
             $can->address = $request->input('address');
+
+            if ($request->hasFile('image')) {
+                $file = $request->file('image');
+                $extension = $file->getClientOriginalExtension();
+                $filename = time() . '1.' . $extension;
+                $file->move('uploads/', $filename);
+                $can->image = $filename;
+            }
+
             $can->save();
 
-            $qs = new ps();
+
 
             for ($i = 1; $i < 3; $i++) {
-
+                $qs = new ps();
                 $nn=$request->input("o".$i);
                // dd($nn);
 
@@ -39,16 +48,17 @@ class CandidateRegController extends Controller
                 $qs->email = $request->input('email');
                 $qs->post = $request->input('idd');
                 $qs->answer = $nn;
-
+                $qs->q1 = $i;
+                $qs->save();
             }
-            $qs->save();
+
 
             $kk= new connect();
             $kk->can=$request->input('email');
             $kk->creator=$request->input('idn');
             $kk->post = $request->input('idd');
-
-            $kk->save();
+            $kk->approved = '0';
+                $kk->save();
 
         }
         return redirect('/can_login');
@@ -57,6 +67,20 @@ class CandidateRegController extends Controller
     public function logincan()
     {
         return view('candidate.login');
+    }
+
+    public function submitapprove(Request $request){
+        $id= $request->input('id');
+        $value = connect::find($id);
+        if($value['approved']=='0'){
+            $value->approved='1';
+            $value->save();
+        }else{
+            $value->approved='0';
+            $value->save();
+        }
+        return redirect('canpro/'.$id);
+
     }
 
 }

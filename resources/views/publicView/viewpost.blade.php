@@ -289,7 +289,7 @@
 
                                         @if($value['deadline'] >= $date)
 
-                                            <a href="#" class="post-like">
+                                            <a href="../candidate_reg/{{$value['id']}}" class="post-like">
                                                 <button class="btn btn-danger">Registration As Candidate</button>
                                             </a>
                                         @else

@@ -22,6 +22,7 @@ class CreateConnectsTable extends Migration
 
             $table->string('post');
 
+            $table->string('approved')->nullable();
 
             $table->timestamps();
         });

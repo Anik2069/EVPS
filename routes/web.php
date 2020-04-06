@@ -14,11 +14,21 @@ Auth::routes();
 
 Route::get('/', 'PostController@viewmain');
 
+Route::get('/orgvot', 'PostController@viewmain3');
+
+
 Route::get('/login', 'OrganizerController@viewlogin');
 
 Route::post('/submitlogin', 'OrganizerController@submitlogin');
 
 Route::get('/viewdetails/{id}', 'PostController@viewmain1');
+
+Route::get('/viewdetails1/{id}', 'PostController@viewmain5');
+
+//vote ROutingg
+Route::get('/voteorg/{id}', 'VotingController@viewmain');
+
+Route::post('/submitorgvot', 'VotingController@viewmain1');
 
 
 Route::post('/submitcan', 'CandidateRegController@sumitcandidata');
@@ -58,11 +68,18 @@ Route::group(['middleware' => 'checkuser'], function () {
 
     Route::get('/canview', 'OrganizerController@viewcan');
 
+    Route::get('/resultofvote', 'OrganizerController@resultofvote');
+
 
     Route::post('/submitvoter', 'VoterselectController@submitvoter');
 
 
     Route::post('/submitpost', 'PostController@submitpost');
+
+
+    Route::get('/canpro/{id}', 'OrganizerController@viewcanpro');
+
+    Route::post('/approval', 'CandidateRegController@submitapprove');
 
 
     Route::get('/home', 'HomeController@index')->name('home');

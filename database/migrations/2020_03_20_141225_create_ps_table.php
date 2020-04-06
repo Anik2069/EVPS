@@ -16,7 +16,7 @@ class CreatePsTable extends Migration
         Schema::create('ps', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('email');
-
+            $table->string('q1');
             $table->string('post');
 
             $table->string('answer');

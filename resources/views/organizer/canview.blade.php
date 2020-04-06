@@ -166,7 +166,7 @@
                 </li>
                 <li class="dropdown"><a href="#" data-toggle="dropdown"
                                         class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image"
-                                                                                                         src="assets/img/user.png"
+                                                                                                         src="{{'assets/'}}assets/img/user.png"
                                                                                                          class="user-img-radious-style">
                         <span class="d-sm-none d-lg-inline-block"></span></a>
                     <div class="dropdown-menu dropdown-menu-right pullDown">
@@ -217,19 +217,20 @@
                                             @foreach($value  as $val)
                                                 @foreach($value1 as $val2 )
                                                     @if($val['can']==$val2['email'])
-                                            <tr>
+                                                        <tr>
 
                                                             <td></td>
                                                             <td>{{$val2['name']}}</td>
                                                             <td>{{$val2['cname']}}</td>
                                                             <td>{{$val2['cposition']}}</td>
                                                             <td>{{$val2['age']}}</td>
-                                                            <td><a href='' class="btn btn-success">PS Repost</a> </td>
+                                                            <td><a href='canpro/{{$val['id']}}'
+                                                                   class="btn btn-success">PS Repost</a></td>
 
 
-                                            </tr>
-                                            @endif
-                                            @endforeach
+                                                        </tr>
+                                                    @endif
+                                                @endforeach
                                             @endforeach
 
                                             </tbody>

@@ -194,106 +194,119 @@
 
                                     <hr>
 
-                                    <form id="regForm" action="/submitcan" method="post">@csrf
-                                        <!-- One "tab" for each step in the form: -->
+                                    <form id="regForm" action="/submitcan" method="post"  enctype="multipart/form-data">@csrf
+                                    <!-- One "tab" for each step in the form: -->
                                         <input type="hidden" name="idd" value="{{$id}}">
                                         <input type="hidden" name="idn" value="{{$name5}}">
 
                                         <fieldset>
 
-                                                  <div class="tab form-group form-float">
-                                                                                               <h3 style="text-align: center">Account Information</h3>
+                                            <div class="tab form-group form-float">
+                                                <h3 style="text-align: center">Account Information</h3>
 
-                                                      <div class="form-line">
-                                                          <label class="form-label">Email</label>
+                                                <div class="form-line">
+                                                    <label class="form-label">Email</label>
 
-                                                          <p><input type="email" placeholder="E-mail..." class="form-control" oninput="this.className = ''"
-                                                                    name="email"></p>
+                                                    <p><input type="email" placeholder="E-mail..." class="form-control"
+                                                              oninput="this.className = ''"
+                                                              name="email"></p>
 
-                                                      </div>
-                                                      <div class="form-line">
-                                                          <label class="form-label">Password</label>
-                                                          <p><input type="password" placeholder="Password..." class="form-control" oninput="this.className = ''"
-                                                                    name="pass"></p>
-                                                      </div>
-                                                      <div class="form-line">
-                                                          <label class="form-label">Confirm Password</label>
-                                                          <p><input type="password" placeholder="Confirm Password..." class="form-control" oninput="this.className = ''"
-                                                                    name="pass1"></p>
-                                                      </div>
-                                                  </div>
-                                              </fieldset>
-                                              <fieldset>
+                                                </div>
+                                                <div class="form-line">
+                                                    <label class="form-label">Password</label>
+                                                    <p><input type="password" placeholder="Password..."
+                                                              class="form-control" oninput="this.className = ''"
+                                                              name="pass"></p>
+                                                </div>
+                                                <div class="form-line">
+                                                    <label class="form-label">Confirm Password</label>
+                                                    <p><input type="password" placeholder="Confirm Password..."
+                                                              class="form-control" oninput="this.className = ''"
+                                                              name="pass1"></p>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset>
 
-                                                  <div class="tab form-group form-float">
-                                                      <h3 style="text-align: center">Personal Information</h3>
+                                            <div class="tab form-group form-float">
+                                                <h3 style="text-align: center">Personal Information</h3>
 
-                                                      <div class="form-line">
-                                                          <label class="form-label">Name</label>
+                                                <div class="form-line">
+                                                    <label class="form-label">Name</label>
 
-                                                          <p><input placeholder="Candidate Name..." class="form-control" oninput="this.className = ''"
-                                                                    name="name"></p>
+                                                    <p><input placeholder="Candidate Name..." class="form-control"
+                                                              oninput="this.className = ''"
+                                                              name="name"></p>
 
-                                                      </div>
-                                                      <div class="form-line">
-                                                          <label class="form-label">Age</label>
+                                                </div>
+                                                <div class="form-line">
+                                                    <label class="form-label">Age</label>
 
-                                                          <p><input placeholder="Candidate Age..." class="form-control" oninput="this.className = ''"
-                                                                    name="age"></p>
+                                                    <p><input placeholder="Candidate Age..." class="form-control"
+                                                              oninput="this.className = ''"
+                                                              name="age"></p>
 
-                                                      </div>
+                                                </div>
 
-                                                      <div class="form-line">
-                                                          <label class="form-label">Phone</label>
+                                                <div class="form-line">
+                                                    <label class="form-label">Phone</label>
 
-                                                          <p><input placeholder="Candidate Phone..." class="form-control" oninput="this.className = ''"
-                                                                    name="phn"></p>
+                                                    <p><input placeholder="Candidate Phone..." class="form-control"
+                                                              oninput="this.className = ''"
+                                                              name="phn"></p>
 
-                                                      </div>
+                                                </div>
 
-                                                      <div class="form-line">
-                                                          <label class="form-label">Birthday</label>
+                                                <div class="form-line">
+                                                    <label class="form-label">Birthday</label>
 
-                                                          <p><input type="date" placeholder="Candidate Name..." class="form-control" oninput="this.className = ''"
-                                                                    name="bday"></p>
+                                                    <p><input type="date" placeholder="Candidate Name..."
+                                                              class="form-control" oninput="this.className = ''"
+                                                              name="bday"></p>
 
-                                                      </div>
-
-
-                                                      <div class="form-line">
-                                                          <label class="form-label">Company Name</label>
-
-                                                          <p><input placeholder="Company Name..." class="form-control" oninput="this.className = ''"
-                                                                    name="cname"></p>
-
-                                                      </div>
-
-                                                      <div class="form-line">
-                                                          <label class="form-label">Company Position</label>
-
-                                                          <p><input placeholder="Company Position..." class="form-control" oninput="this.className = ''"
-                                                                    name="cp"></p>
-
-                                                      </div>
+                                                </div>
 
 
+                                                <div class="form-line">
+                                                    <label class="form-label">Company Name</label>
+
+                                                    <p><input placeholder="Company Name..." class="form-control"
+                                                              oninput="this.className = ''"
+                                                              name="cname"></p>
+
+                                                </div>
+
+                                                <div class="form-line">
+                                                    <label class="form-label">Company Position</label>
+
+                                                    <p><input placeholder="Company Position..." class="form-control"
+                                                              oninput="this.className = ''"
+                                                              name="cp"></p>
+
+                                                </div>
 
 
-                                                      <div class="form-line">
-                                                          <label class="form-label">Address</label>
+                                                <div class="form-line">
+                                                    <label class="form-label">Address</label>
 
-                                                          <p><input placeholder="Candidate Address..." class="form-control" oninput="this.className = ''"
-                                                                    name="address"></p>
+                                                    <p><input placeholder="Candidate Address..." class="form-control"
+                                                              oninput="this.className = ''"
+                                                              name="address"></p>
 
-                                                      </div>
-
-
-
+                                                </div>
 
 
+                                                <div class="form-line">
+                                                    <label class="form-label">Image</label>
 
-                                                  </div>
-                                              </fieldset>
+                                                    <p><input type="file" placeholder="Candidate Address..." name="image" class="form-control"
+                                                              ></p>
+
+                                                </div>
+
+
+                                            </div>
+                                        </fieldset>
                                         <fieldset>
 
                                             <div class="tab form-group form-float">
@@ -308,31 +321,31 @@
                                                                 @if ($val2['o']!=0)
                                                                     <label class="radio-inline">
                                                                         <input type="radio" name="o{{$tt}}"
-                                                                             value="{{$val2['o']}}"  >{{$val2['answer']}}
+                                                                               value="{{$val2['o']}}">{{$val2['answer']}}
                                                                     </label>
                                                                 @elseif ($val2['c']!=0)
                                                                     <label class="radio-inline">
                                                                         <input type="radio" name="o{{$tt}}"
-                                                                               value="{{$val2['c']}}" >{{$val2['answer']}}
+                                                                               value="{{$val2['c']}}">{{$val2['answer']}}
                                                                     </label>
                                                                 @elseif ($val2['e']!=0)
                                                                     <label class="radio-inline">
                                                                         <input type="radio" name="o{{$tt}}"
-                                                                               value="{{$val2['e']}}" >{{$val2['answer']}}
+                                                                               value="{{$val2['e']}}">{{$val2['answer']}}
                                                                     </label>
 
 
                                                                 @elseif ($val2['a']!=0)
                                                                     <label class="radio-inline">
                                                                         <input type="radio" name="o{{$tt}}"
-                                                                               value="{{$val2['a']}}"   >{{$val2['answer']}}
+                                                                               value="{{$val2['a']}}">{{$val2['answer']}}
                                                                     </label>
 
 
                                                                 @elseif ($val2['n']!=0)
                                                                     <label class="radio-inline">
                                                                         <input type="radio" name="o{{$tt}}"
-                                                                               value="{{$val2['n']}}"    >{{$val2['answer']}}
+                                                                               value="{{$val2['n']}}">{{$val2['answer']}}
                                                                     </label>
                                                                 @endif
 

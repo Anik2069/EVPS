@@ -3,15 +3,21 @@
 namespace App\Http\Controllers;
 
 
+use App\anserwer;
 use App\candidate_reg;
+
+
 use App\connect;
 use App\Mail\SendMail;
 use App\organizer;
 use App\post;
+use App\ps;
 use App\question;
+use App\voting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
+use Charts;
 
 class OrganizerController extends Controller
 {
@@ -122,12 +128,128 @@ class OrganizerController extends Controller
         $user = $request->session()->get('user');
 
         $value = connect::where([
-            ['creator','=',$user]
+            ['creator', '=', $user]
         ])->get();
 
         $value1 = candidate_reg::all();
 
-return view("organizer.canview",compact('value','value1'));
+        return view("organizer.canview", compact('value', 'value1'));
+    }
+    public function resultofvote(Request $request)
+    {
+
+        $user = $request->session()->get('user');
+
+        $value = post::where([
+            ['creator', '=', $user]
+        ])->get();
+
+        $value1 = connect::where([
+            ['creator', '=', $user],
+            ['approved', '=', '1'],
+
+        ])->get();
+$c=0;
+    $value2=voting::all();
+
+        return view("organizer.result", compact('value', 'value1','value2','c'));
+    }
+
+    public function viewcanpro($id, Request $request)
+    {
+
+        $val = connect::find($id);
+
+        $user = $request->session()->get('user');
+
+        $value = candidate_reg::where([
+            ['email', '=', $val['can']]
+        ])->get();
+        foreach ($value as $i) {
+            $name = $i['name'];
+            $cname = $i['cname'];
+            $cposition = $i['cposition'];
+            $phone = $i['phone'];
+            $bday = $i['bday'];
+            $address = $i['address'];
+            $email = $i['email'];
+
+
+        }
+
+        $value1 = ps::where([
+            ['email', '=', $email],
+            ['post', '=', $val['post']
+            ]
+        ])->get();
+
+        $value2 = question::all();
+        $value3 = anserwer::all();
+        $to = 0;
+        $tc = 0;
+        $te = 0;
+        $ta = 0;
+        $tn = 0;
+        $to1 = 0;
+        $tc1 = 0;
+        $te1 = 0;
+        $ta1 = 0;
+        $tn1 = 0;
+        $i = 1;
+        foreach ($value2 as $val1) {
+            foreach ($value3 as $val2) {
+                if ($val1['id'] == $val2['question']) {
+                    foreach ($value1 as $vv) {
+
+                        if ($vv['q1'] == $val1['id']) {
+                            if ($vv['answer'] == $val2['o']) {
+                                $to1 = $to1 + $vv['answer'];
+
+                            } else if ($vv['answer'] == $val2['c']) {
+                                $tc1 = $tc1 + $vv['answer'];
+
+                            } else if ($vv['answer'] == $val2['e']) {
+                                $te1 = $te1 + $vv['answer'];
+
+                            } else if ($vv['answer'] == $val2['a']) {
+                                $ta1 = $ta1 + $vv['answer'];
+
+                            } else if ($vv['answer'] == $val2['n']) {
+                                $tn1 = $tn1 + $vv['answer'];
+
+                            }
+                        }
+
+                    }
+
+                    $to = $to + $val2['o'];
+                    $tc = $tc + $val2['c'];
+                    $te = $te + $val2['e'];
+                    $ta = $ta + $val2['a'];
+                    $tn = $tn + $val2['n'];
+
+
+                }
+
+
+            }
+            $i = $i + 1;
+        }
+        $total = $to + $tc + $te + $ta + $tn;
+        $p1 = ($to1 / $total) * 100;
+        $p2 = ($tc1 / $total) * 100;
+        $p3 = ($te1 / $total) * 100;
+        $p4 = ($ta1 / $total) * 100;
+        $p5 = ($tn1 / $total) * 100;
+        // dd($to, $tc, $te, $ta, $tn, $tc1, $te1, $ta1, $tn1);
+        $users = [$p1, $p1, $p1];
+        $pie = Charts::create('pie', 'highcharts')
+            ->title('My nice chart')
+            ->labels(['Openencess', 'Conscientiousness', 'Extraversion', 'Agreeableness', 'Natural Reactions'])
+            ->values([$p1, $p2, $p3, $p4, $p5])
+            ->dimensions(800, 300)
+            ->responsive(false);
+        return view("organizer.canprofile", compact('name', 'cname', 'cposition', 'phone', 'bday', 'address', 'email', 'phone', 'p1', 'p2', 'p3', 'p4', 'p5', 'pie', 'id', 'val'));
     }
 
 }
