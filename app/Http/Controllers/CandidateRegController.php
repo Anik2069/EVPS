@@ -39,7 +39,7 @@ class CandidateRegController extends Controller
 
 
 
-            for ($i = 1; $i < 3; $i++) {
+            for ($i = 1; $i < 16; $i++) {
                 $qs = new ps();
                 $nn=$request->input("o".$i);
                // dd($nn);

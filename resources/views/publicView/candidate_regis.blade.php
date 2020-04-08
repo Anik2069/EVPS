@@ -199,7 +199,7 @@
                                         <input type="hidden" name="idd" value="{{$id}}">
                                         <input type="hidden" name="idn" value="{{$name5}}">
 
-                                        <fieldset>
+                                  <fieldset>
 
                                             <div class="tab form-group form-float">
                                                 <h3 style="text-align: center">Account Information</h3>
@@ -312,10 +312,11 @@
                                             <div class="tab form-group form-float">
                                                 <h3 style="text-align: center">Question Answer</h3>
 
+<input type="hidden" value="{{$e=1}}">
 
-                                                <div class="form-line">
                                                     @foreach($value as $val)
-                                                        <label class="form-label">Q1: {{$val['question']}}??</label><br>
+                                                    <div class="form-line">
+                                                        <label class="form-label">Q{{$e}}: {{$val['question']}}??</label><br>
                                                         @foreach($value1 as $val2)
                                                             @if($val2['question']==$val['id'])
                                                                 @if ($val2['o']!=0)
@@ -352,8 +353,10 @@
                                                             @endif
                                                         @endforeach
                                                         <input type="hidden" value="{{$tt=$tt+1}}">
-                                                    @endforeach
+                                                        <input type="hidden" value="{{$e=$e+1}}">
                                                 </div>
+                                                    @endforeach
+
 
 
                                             </div>

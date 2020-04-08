@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>The News Paper - News &amp; Lifestyle Magazine Template</title>
+    <title>Electronic Voting & Polling System(EVPS)</title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{'assets/'}}img/core-img/favicon.ico">
@@ -31,7 +31,7 @@
                     <div class="top-header-content d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.blade.php"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="/"><img src="{{'assets/'}}img/core-img/logo2.png" alt=""></a>
                         </div>
 
                         <!-- Login Search Area -->
@@ -83,10 +83,10 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="active"><a href="index.blade.php">Home</a></li>
+                                <li class="active"><a href="/">Home</a></li>
 
                                 <li><a href="#">Govt. Voting</a></li>
-                                <li><a href="#">Organizer's Voting</a></li>
+                                <li><a href="/orgvot">Organizer's Voting</a></li>
                                 {{-- <li><a href="#">Business</a></li>
                                 <li><a href="#">Technology</a></li>
                                 <li><a href="#">Health</a></li>
@@ -97,7 +97,7 @@
                                 <li><a href="#">Log In</a>
                                     <ul class="dropdown">
                                         <li><a href="index.blade.php">Govt. Organizer</a></li>
-                                        <li><a href="catagories-post.html">Organizer</a></li>
+                                        <li><a href="/login">Organizer</a></li>
                                         <li><a href="viewpost.blade.php">Candidate</a></li>
                                         {{-- <li><a href="about.html"></a></li>--}}
                                         {{--    <li><a href="contact.html">Contact</a></li>--}}
@@ -117,7 +117,7 @@
                                 <li><a href="#">Registration</a>
                                     <ul class="dropdown">
                                         <li><a href="index.blade.php">Govt. Organizer</a></li>
-                                        <li><a href="catagories-post.html">Organizer</a></li>
+                                        <li><a href="/orgregis">Organizer</a></li>
                                         <li><a href="viewpost.blade.php">Candidate</a></li>
                                         {{-- <li><a href="about.html"></a></li>--}}
                                         {{--    <li><a href="contact.html">Contact</a></li>--}}
@@ -215,14 +215,27 @@
                 <!-- Breaking News Widget -->
                 <div class="breaking-news-area d-flex align-items-center">
                     <div class="news-title">
-                        <p>Breaking News</p>
+                        <p>Vote Day News</p>
                     </div>
+
+
                     <div id="breakingNewsTicker" class="ticker">
                         <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                            <li><a href="#">Welcome to Colorlib Family.</a></li>
+                            <li><a href="#"></a></li>
+                           {{-- <li><a href="#">Welcome to Colorlib Family.</a></li>
                             <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
-                        </ul>
+--}}
+                        @foreach($value as $val)
+                                @if($val['votingdate']== date('Y-m-d'))
+                                    <li>Voting Title</li>
+                                    <li><a href="#">{{$val['title']}}</a></li>
+
+
+                                @endif
+                            @endforeach
+                            <li><a href="#"> No more update today.</a></li>
+
+                          </ul>
                     </div>
                 </div>
 

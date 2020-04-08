@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626c9d42-2f59-458e-a666-c059743f0612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/organizer/canprofile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/organizer/result.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/publicView/viewpost1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/publicView/voter_reg.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EVPS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EVPS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CandidateRegController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CandidateRegController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrganizerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrganizerController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_20_140902_create_candidate_regs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_20_140902_create_candidate_regs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_20_141225_create_ps_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_20_141225_create_ps_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_20_184055_create_connects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_20_184055_create_connects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/canview.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/canview.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/result.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/publicView/candidate_regis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/publicView/candidate_regis.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/publicView/viewpost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/publicView/viewpost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/publicView/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/publicView/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,6 +182,7 @@
       <workItem from="1585033791848" duration="11067000" />
       <workItem from="1585054402179" duration="10022000" />
       <workItem from="1585833390124" duration="9726000" />
+      <workItem from="1586177820249" duration="6318000" />
     </task>
     <servers />
   </component>
@@ -232,18 +217,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/publicView/index.blade.php</url>
-          <line>305</line>
+          <line>318</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/publicView/candidate_regis.blade.php</url>
           <line>191</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/publicView/candidate_regis.blade.php</url>
-          <line>288</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

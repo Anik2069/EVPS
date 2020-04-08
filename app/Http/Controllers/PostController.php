@@ -17,7 +17,7 @@ class PostController extends Controller
 
     public function viewmain2($id)
     {
-        $value = question::all();
+        $value = question::paginate(15);
         $value1 = anserwer::all();
         $tt = 1;
         $value33 = post::find($id);
@@ -29,6 +29,9 @@ class PostController extends Controller
     public function viewmain()
     {
         $value = post::orderBy('id', 'desc')->paginate(10);
+        $date = date('Y-m-d');
+
+
 
         return view('publicView.index', compact('value'));
 

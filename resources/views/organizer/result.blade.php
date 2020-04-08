@@ -220,12 +220,19 @@
                                                             <td>{{$val['can']}}</td>
                                                             @foreach($value2 as $val2)
                                                                 @if($val2['post']==$val1['id'] && $val['can']==$val2['can'])
-                                                                <input type="hidden" value="{{$c=$c+1}}">
+                                                                    <input type="hidden" value="{{$c=$c+1}}">
                                                                 @endif
                                                             @endforeach
-<td>{{$c}}</td>
+                                                            <td>{{$c}}</td>
                                                             <input type="hidden" value="{{$c=0}}">
+                                                            @if($val1['votingdate']==date("Y-m-d"))
+                                                                <td>Voting is running is today.</td>
+                                                                @elseif ($val1['votingdate']<date("Y-m-d"))
+                                                                <td>Voting Over</td>
+                                                                @else
+                                                                <td>Voting is not started..</td>
 
+                                                            @endif
                                                         </tr>
                                                     @endif
                                                 @endforeach
