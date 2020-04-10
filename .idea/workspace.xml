@@ -3,11 +3,83 @@
   <component name="ChangeListManager">
     <list default="true" id="626c9d42-2f59-458e-a666-c059743f0612" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CandidateRegController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CandidateRegController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/result.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/publicView/candidate_regis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/publicView/candidate_regis.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/publicView/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/publicView/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrganizerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrganizerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/candidate/errors-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/candidate/errors-404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/candidate/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/candidate/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/advance-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/advance-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/alert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/avatar.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/avatar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/badge.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/badge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/basic-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/basic-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/basic-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/basic-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/breadcrumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/breadcrumb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-amchart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-amchart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-apexchart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-apexchart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-chartjs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-echart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-echart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-morris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-sparkline.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-sparkline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/checkbox-and-radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/checkbox-and-radio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/collapse.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/collapse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/datatables.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/datatables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/dropdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/editable-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/editable-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/email-compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/email-compose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/email-inbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/email-inbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/email-read.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/email-read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/empty-state.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/empty-state.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/errors-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/errors-404.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/export-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/export-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/flags.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/flags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/form-wizard.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/form-wizard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/forms-advanced-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/forms-advanced-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/forms-editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/forms-editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gallery1.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gallery1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-advanced-route.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-advanced-route.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-draggable-marker.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-draggable-marker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-geocoding.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-geocoding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-geolocation.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-geolocation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-marker.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-marker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-multiple-marker.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-multiple-marker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-route.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-route.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-feather.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-feather.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-font-awesome.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-font-awesome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-ionicons.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-ionicons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-material.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-weather-icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-weather-icon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/light-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/light-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/list-group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/media-object.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/media-object.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/multiple-upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/multiple-upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/owl-carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/owl-carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/popover.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/popover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/progress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/sweet-alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/sweet-alert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/tabs.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/tabs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/toastr.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/toastr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/tooltip.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/tooltip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/vector-map.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/vector-map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/widget-chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/widget-chart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/widget-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/widget-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,6 +255,8 @@
       <workItem from="1585054402179" duration="10022000" />
       <workItem from="1585833390124" duration="9726000" />
       <workItem from="1586177820249" duration="6318000" />
+      <workItem from="1586414274584" duration="3205000" />
+      <workItem from="1586499181369" duration="4344000" />
     </task>
     <servers />
   </component>

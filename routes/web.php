@@ -12,6 +12,15 @@
 */
 Auth::routes();
 
+Route::get('/govtreg', function (){
+  return view("organizer.errors-404");
+});
+
+Route::get('/govtlog', function (){
+    return view("govt.login");
+});
+
+
 Route::get('/', 'PostController@viewmain');
 
 Route::get('/orgvot', 'PostController@viewmain3');
@@ -84,3 +93,42 @@ Route::group(['middleware' => 'checkuser'], function () {
 
     Route::get('/home', 'HomeController@index')->name('home');
 });
+
+
+//Govt ROuting start
+Route::post('/submitgovt','GovtController@submitlogin');
+Route::get('/govtverify','GovtController@login_verify');
+Route::post('/submitgovtverify','GovtController@submitgovtverify');
+Route::get('/govthome','GovtController@home');
+Route::get('/createannouncement', 'PostController@viewpost');
+
+Route::get('/view', 'PostController@viewpost1');
+
+Route::get('/dlt/{id}', 'PostController@deletepost');
+
+Route::get('/vpost/{id}', 'PostController@viewpost2');
+
+
+Route::get('/dltcriteria/{id}', 'VoterselectController@dltdata');
+
+//Voter
+Route::get('/voterselect', 'VoterselectController@viewdata');
+
+Route::get('/dash', function () {
+    return view("organizer.index");
+});
+
+Route::get('/canview', 'OrganizerController@viewcan');
+
+Route::get('/resultofvote', 'OrganizerController@resultofvote');
+
+
+Route::post('/submitvoter', 'VoterselectController@submitvoter');
+
+
+Route::post('/submitpost', 'PostController@submitpost');
+
+
+Route::get('/canpro/{id}', 'OrganizerController@viewcanpro');
+
+Route::post('/approval', 'CandidateRegController@submitapprove');

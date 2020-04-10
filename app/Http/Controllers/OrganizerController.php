@@ -135,6 +135,7 @@ class OrganizerController extends Controller
 
         return view("organizer.canview", compact('value', 'value1'));
     }
+
     public function resultofvote(Request $request)
     {
 
@@ -149,10 +150,10 @@ class OrganizerController extends Controller
             ['approved', '=', '1'],
 
         ])->get();
-$c=0;
-    $value2=voting::all();
+        $c = 0;
+        $value2 = voting::all();
 
-        return view("organizer.result", compact('value', 'value1','value2','c'));
+        return view("organizer.result", compact('value', 'value1', 'value2', 'c'));
     }
 
     public function viewcanpro($id, Request $request)
