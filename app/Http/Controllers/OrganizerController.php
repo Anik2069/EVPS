@@ -156,6 +156,48 @@ class OrganizerController extends Controller
         return view("organizer.result", compact('value', 'value1', 'value2', 'c'));
     }
 
+    public function resultofvote1(Request $request)
+    {
+
+        $user = $request->session()->get('user');
+
+        $value = post::where([
+            ['creator', '=', $user]
+        ])->get();
+
+        $value1 = connect::where([
+
+            ['approved', '=', '1'],
+
+        ])->get();
+        $c = 0;
+        $value2 = voting::all();
+
+        return view("candidate.result", compact('value', 'value1', 'value2', 'c'));
+    }
+
+    public function resultofvote12(Request $request)
+    {
+        $date = date('Y-m-d');
+
+        date_default_timezone_set('Asia/karachi');
+        $time = date('h:i:s');
+        $user = $request->session()->get('user');
+
+        $value = post::where([
+            ['creator', '=', $user]
+        ])->get();
+
+        $value1 = connect::where([
+
+            ['approved', '=', '1'],
+
+        ])->get();
+        $c = 0;
+        $value2 = voting::all();
+
+        return view("publicView.votpost2", compact('value', 'value1', 'value2', 'c','date','time'));
+    }
     public function viewcanpro($id, Request $request)
     {
 

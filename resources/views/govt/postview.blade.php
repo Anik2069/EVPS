@@ -171,7 +171,7 @@
         </ul>
       </nav>
 
-        @include("organizer.nav")
+        @include("govt.nav")
 
       <!-- Main Content -->
       <div class="main-content">

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\anserwer;
 use App\candidate_reg;
 use App\connect;
+use App\govepost;
 use App\post;
 use App\question;
 use Illuminate\Http\Request;
@@ -50,6 +51,23 @@ class PostController extends Controller
         $value = post::orderBy('id', 'desc')->paginate(10);
 
         return view('publicView.votpost', compact('value', 'date', 'time'));
+
+
+    }
+
+
+    public function viewmain33()
+    {
+
+        $date = date('Y-m-d');
+
+        date_default_timezone_set('Asia/karachi');
+        $time = date('h:i:s');
+
+
+        $value = govepost::orderBy('id', 'desc')->paginate(10);
+
+        return view('publicView.votpost1', compact('value', 'date', 'time'));
 
 
     }
@@ -128,7 +146,10 @@ class PostController extends Controller
         $p->t2 = $request->input('t2');
 
         $p->save();
-        return redirect('/createpost');
+
+      //  $value=post::all();
+        return redirect('/view');
+
     }
 
     public function viewpost()
@@ -153,6 +174,12 @@ class PostController extends Controller
         return view('organizer.postreview', compact('value'));
     }
 
+    public function viewpost22($id)
+    {
+        $value = post::find($id);
+        return view('candidate.postreview', compact('value'));
+    }
+
     public function deletepost($id)
     {
         $product = post::find($id);
@@ -161,5 +188,10 @@ class PostController extends Controller
 
     }
 
-
+    public function viewpost10(Request $request)
+    {
+        $name = $request->session()->get('user');
+        $value=post::all();
+        return view('candidate.postview', compact('value'));
+    }
 }

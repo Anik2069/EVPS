@@ -192,7 +192,7 @@
             </ul>
         </nav>
 
-    @include("organizer.nav")
+    @include("govt.nav")
     <!-- Main Content -->
         <div class="main-content">
             <section class="section">
@@ -220,7 +220,7 @@
 
 
                                 <div class="card-body">
-                                    <form method="post" action="/submitvoter">
+                                    <form method="post" action="/submitvoter"  enctype="multipart/form-data">
                                         @csrf
                                         <div class="section-title mt-0">Type</div>
                                         <div class="form-group">
@@ -235,8 +235,41 @@
                                         </div>
 
                                         <div class="form-group">
+                                            <label>Nid NUMBER</label>
+                                            <input type="text" name="nid" class="form-control" name="like">
+                                        </div>
+
+
+
+                                        <div class="form-group">
+                                            <label>father's name</label>
+                                            <input type="text" name="fname" class="form-control" name="like">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>mother's name</label>
+                                            <input type="text" name="mname" class="form-control" name="like">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Address</label>
+                                            <input type="text" name="address" class="form-control" name="like">
+                                        </div>
+
+                                        <div class="form-group row mb-4">
+                                            <label
+                                                class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Image</label>
+                                            <div class="col-sm-12 col-md-7">
+                                                <div id="image-preview" class="image-preview">
+                                                    <label for="image-upload" id="image-label">Choose File</label>
+                                                    <input type="file" name="image" id="image-upload"/>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label>Like</label>
-                                            <input type="text" class="form-control" name="like">
+                                            <input type="text" name="like" class="form-control" name="like">
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="form-control btn btn-primary">
@@ -252,54 +285,6 @@
                     <div class="row">
 
 
-                        <div class="col-12 col-md-6 col-lg-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4>Listed table</h4>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-md">
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Type</th>
-                                                <th>Name</th>
-                                                <th>Action</th>
-                                            </tr>
-                                            @foreach($value as $val)
-
-                                            <tr>
-                                                <td>{{$c=$c+1}}</td>
-                                                <td>{{$val['type']}}</td>
-                                                <td>{{$val['name']}}</td>
-                                                <td><a href="dltcriteria/{{$val['id']}}" class="btn btn-danger" onclick="return confirm('Are you sure?')" >Delete</a></td>
-                                            </tr>
-
-
-                                                @endforeach
-                                        </table>
-                                    </div>
-                                </div>
-                                <div class="card-footer text-right">
-                                    <nav class="d-inline-block">
-                                        <ul class="pagination mb-0">
-                                            <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1"><i class="fas fa-chevron-left"></i></a>
-                                            </li>
-                                            <li class="page-item active"><a class="page-link" href="#">1 <span
-                                                        class="sr-only">(current)</span></a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">2</a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>

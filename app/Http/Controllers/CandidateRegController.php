@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\candidate_reg;
 use App\connect;
+use App\organizer;
 use App\ps;
 use Illuminate\Http\Request;
 
@@ -80,6 +81,45 @@ class CandidateRegController extends Controller
             $value->save();
         }
         return redirect('canpro/'.$id);
+
+    }
+    public function submitlogin(Request $request)
+    {
+        session_start();
+        $email1 = $request->get('email');
+        $pass = $request->get('password');
+        $c = 0;
+        $details = candidate_reg::where('email', $email1)->get();
+
+        foreach ($details as $value) {
+            if ($email1 == $value['email'] && $pass == $value['pass']) {
+                $request->session()->put('user', $email1);
+                $request->session()->put('pass', $pass);
+                /*$request->session()->put('rule', $value['userroles']);*/
+                $_SESSION['ee'] = $email1;
+                $_SESSION['id'] = $value['id'];
+
+                return redirect("/candash");
+                $c = 1;
+            }
+        }
+        if ($c == 0) {
+
+            $request->session()->put('user', $email1);
+            $request->session()->put('pass', $pass);
+            $request->session()->put('id', $c);
+
+            return redirect("/can_login");
+
+
+        }
+
+
+    }
+
+    public  function dash(){
+
+        return view("candidate.index");
 
     }
 

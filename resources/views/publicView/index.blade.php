@@ -21,190 +21,7 @@
 
 <body>
 <!-- ##### Header Area Start ##### -->
-<header class="header-area">
-
-    <!-- Top Header Area -->
-    <div class="top-header-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="top-header-content d-flex align-items-center justify-content-between">
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="/"><img src="{{'assets/'}}img/core-img/logo2.png" alt=""></a>
-                        </div>
-
-                        <!-- Login Search Area -->
-                        <div class="login-search-area d-flex align-items-center">
-                            <!-- Login -->
-                            <div class="login d-flex">
-                                <a href="#">Login</a>
-                                <a href="#">Register</a>
-                            </div>
-                            <!-- Search Form -->
-                            <div class="search-form">
-                                <form action="#" method="post">
-                                    <input type="search" name="search" class="form-control" placeholder="Search">
-                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navbar Area -->
-    <div class="newspaper-main-menu" id="stickyMenu">
-        <div class="classy-nav-container breakpoint-off">
-            <div class="container">
-                <!-- Menu -->
-                <nav class="classy-navbar justify-content-between" id="newspaperNav">
-
-                    <!-- Logo -->
-                    <div class="logo">
-                        <a href="index.blade.php"><img src="{{'assets/'}}img/core-img/logo.png" alt=""></a>
-                    </div>
-
-                    <!-- Navbar Toggler -->
-                    <div class="classy-navbar-toggler">
-                        <span class="navbarToggler"><span></span><span></span><span></span></span>
-                    </div>
-
-                    <!-- Menu -->
-                    <div class="classy-menu">
-
-                        <!-- close btn -->
-                        <div class="classycloseIcon">
-                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                        </div>
-
-                        <!-- Nav Start -->
-                        <div class="classynav">
-                            <ul>
-                                <li class="active"><a href="/">Home</a></li>
-
-                                <li><a href="#">Govt. Voting</a></li>
-                                <li><a href="/orgvot">Organizer's Voting</a></li>
-                                {{-- <li><a href="#">Business</a></li>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Health</a></li>
-                                <li><a href="#">Travel</a></li>
-                                <li><a href="#">Sports</a></li>--}}
-                                <li><a href="contact.html">Contact</a></li>
-
-                                <li><a href="#">Log In</a>
-                                    <ul class="dropdown">
-                                        <li><a href="index.blade.php">Govt. Organizer</a></li>
-                                        <li><a href="/login">Organizer</a></li>
-                                        <li><a href="viewpost.blade.php">Candidate</a></li>
-                                        {{-- <li><a href="about.html"></a></li>--}}
-                                        {{--    <li><a href="contact.html">Contact</a></li>--}}
-                                        {{--    <li><a href="#">Dropdown</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.blade.php">Home</a></li>
-                                            <li><a href="catagories-post.html">Catagories</a></li>
-                                            <li><a href="viewpost.blade.php">Single Articles</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </li>--}}
-                                    </ul>
-                                </li>
-
-
-                                <li><a href="#">Registration</a>
-                                    <ul class="dropdown">
-                                        <li><a href="index.blade.php">Govt. Organizer</a></li>
-                                        <li><a href="/orgregis">Organizer</a></li>
-                                        <li><a href="viewpost.blade.php">Candidate</a></li>
-                                        {{-- <li><a href="about.html"></a></li>--}}
-                                        {{--    <li><a href="contact.html">Contact</a></li>--}}
-                                        {{--    <li><a href="#">Dropdown</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.blade.php">Home</a></li>
-                                            <li><a href="catagories-post.html">Catagories</a></li>
-                                            <li><a href="viewpost.blade.php">Single Articles</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </li>--}}
-                                    </ul>
-                                </li>
-
-                                {{--        <li><a href="#">Mega Menu</a>
-                                <div class="megamenu">
-                                    <ul class="single-mega cn-col-4">
-                                        <li class="title">Catagories</li>
-                                        <li><a href="index.blade.php">Home</a></li>
-                                        <li><a href="catagories-post.html">Catagories</a></li>
-                                        <li><a href="viewpost.blade.php">Single Articles</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li class="title">Catagories</li>
-                                        <li><a href="index.blade.php">Home</a></li>
-                                        <li><a href="catagories-post.html">Catagories</a></li>
-                                        <li><a href="viewpost.blade.php">Single Articles</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li class="title">Catagories</li>
-                                        <li><a href="index.blade.php">Home</a></li>
-                                        <li><a href="catagories-post.html">Catagories</a></li>
-                                        <li><a href="viewpost.blade.php">Single Articles</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                    <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
-                                        <div class="single-blog-post small-featured-post d-flex">
-                                            <div class="post-thumb">
-                                                <a href="#"><img src="{{'assets/'}}img/bg-img/23.jpg" alt=""></a>
-                                            </div>
-                                            <div class="post-data">
-                                                <a href="#" class="post-catagory">Travel</a>
-                                                <div class="post-meta">
-                                                    <a href="#" class="post-title">
-                                                        <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
-                                                    </a>
-                                                    <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Featured Post -->
-                                        <div class="single-blog-post small-featured-post d-flex">
-                                            <div class="post-thumb">
-                                                <a href="#"><img src="{{'assets/'}}img/bg-img/24.jpg" alt=""></a>
-                                            </div>
-                                            <div class="post-data">
-                                                <a href="#" class="post-catagory">Politics</a>
-                                                <div class="post-meta">
-                                                    <a href="#" class="post-title">
-                                                        <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
-                                                    </a>
-                                                    <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>--}}
-
-                            </ul>
-                        </div>
-                        <!-- Nav End -->
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-
-</header>
+@include("publicView.header")
 <!-- ##### Header Area End ##### -->
 
 <!-- ##### Hero Area Start ##### -->
@@ -222,10 +39,10 @@
                     <div id="breakingNewsTicker" class="ticker">
                         <ul>
                             <li><a href="#"></a></li>
-                           {{-- <li><a href="#">Welcome to Colorlib Family.</a></li>
-                            <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
---}}
-                        @foreach($value as $val)
+                            {{-- <li><a href="#">Welcome to Colorlib Family.</a></li>
+                             <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
+ --}}
+                            @foreach($value as $val)
                                 @if($val['votingdate']== date('Y-m-d'))
                                     <li>Voting Title</li>
                                     <li><a href="#">{{$val['title']}}</a></li>
@@ -235,7 +52,7 @@
                             @endforeach
                             <li><a href="#"> No more update today.</a></li>
 
-                          </ul>
+                        </ul>
                     </div>
                 </div>
 
@@ -274,27 +91,31 @@
 
                     <!-- Single Featured Post -->
                     @foreach($value as $val)
-                    <div class="single-blog-post featured-post mb-30">
-                        <div class="post-thumb">
-                            <a href="#"><img src="uploads/{{$val['image']}}" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-catagory">Voting Post</a>
-                            <a href="#" class="post-title">
-                                <h6>{{$val['title']}}</h6>
-                            </a>
-                            <div class="post-meta">
-                                <p class="post-author">By <a href="#">{{$val['creator']}}</a></p>
-                                <p class="post-excerp">{{$val['content1']}} </p>
-                                <!-- Post Like & Post Comment -->
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="post-like" ><button class="btn btn-danger">Registration</button></a>
-                                    <a href="/viewdetails/{{$val['id']}}" class="post-comment align-items-left"><button class="btn btn-danger">View More</button></a>
+                        <div class="single-blog-post featured-post mb-30">
+                            <div class="post-thumb">
+                                <a href="#"><img src="uploads/{{$val['image']}}" alt=""></a>
+                            </div>
+                            <div class="post-data">
+                                <a href="#" class="post-catagory">Voting Post</a>
+                                <a href="#" class="post-title">
+                                    <h6>{{$val['title']}}</h6>
+                                </a>
+                                <div class="post-meta">
+                                    <p class="post-author">By <a href="#">{{$val['creator']}}</a></p>
+                                    <p class="post-excerp">{{$val['content1']}} </p>
+                                    <!-- Post Like & Post Comment -->
+                                    <div class="d-flex align-items-center">
+                                        <a href="#" class="post-like">
+                                            <button class="btn btn-danger">Registration</button>
+                                        </a>
+                                        <a href="/viewdetails/{{$val['id']}}" class="post-comment align-items-left">
+                                            <button class="btn btn-danger">View More</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-@endforeach
+                    @endforeach
 
 
                 </div>
@@ -422,7 +243,8 @@
                         <!-- Single Popular Blog -->
                         <div class="single-popular-post">
                             <a href="#">
-                                <h6><span>1.</span> Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.</h6>
+                                <h6><span>1.</span> Amet, consectetur adipiscing elit. Nam eu metus sit amet odio
+                                    sodales.</h6>
                             </a>
                             <p>April 14, 2018</p>
                         </div>
@@ -430,7 +252,8 @@
                         <!-- Single Popular Blog -->
                         <div class="single-popular-post">
                             <a href="#">
-                                <h6><span>2.</span> Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.</h6>
+                                <h6><span>2.</span> Consectetur adipiscing elit. Nam eu metus sit amet odio sodales
+                                    placer.</h6>
                             </a>
                             <p>April 14, 2018</p>
                         </div>
@@ -438,7 +261,8 @@
                         <!-- Single Popular Blog -->
                         <div class="single-popular-post">
                             <a href="#">
-                                <h6><span>3.</span> Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.</h6>
+                                <h6><span>3.</span> Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed
+                                    varius leo.</h6>
                             </a>
                             <p>April 14, 2018</p>
                         </div>
@@ -622,7 +446,10 @@
                 <div class="col-12">
                     <!-- Copywrite -->
                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                        All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i> by <a
+                            href="https://colorlib.com" target="_blank">Colorlib</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 </div>
             </div>

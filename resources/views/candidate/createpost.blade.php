@@ -179,7 +179,7 @@
 
 
         <!-- Nav -->
-        @include('organizer.nav')
+        @include('govt.nav')
 
       <!-- Main Content -->
       <div class="main-content">
@@ -229,7 +229,9 @@
                       <div class="form-group row mb-4">
                           <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Content 2(Part 2 - 500 Words)</label>
                           <div class="col-sm-12 col-md-7">
-                              <textarea  class="form-control" name="content2"></textarea>
+                           <select class="form-control">
+                               <option value="">City Corporation</option>
+                           </select>
                           </div>
                       </div>
 

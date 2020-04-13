@@ -12,19 +12,15 @@
 */
 Auth::routes();
 
-Route::get('/govtreg', function (){
-  return view("organizer.errors-404");
-});
 
-Route::get('/govtlog', function (){
-    return view("govt.login");
-});
+
 
 
 Route::get('/', 'PostController@viewmain');
 
 Route::get('/orgvot', 'PostController@viewmain3');
 
+Route::get('/govvot', 'PostController@viewmain33');
 
 Route::get('/login', 'OrganizerController@viewlogin');
 
@@ -45,7 +41,6 @@ Route::post('/submitcan', 'CandidateRegController@sumitcandidata');
 
 Route::get('/candidate_reg/{id}', 'PostController@viewmain2');
 
-Route::get('/can_login', 'CandidateRegController@logincan');
 
 Route::get('/orgregis', 'OrganizerController@getorg');
 
@@ -80,7 +75,7 @@ Route::group(['middleware' => 'checkuser'], function () {
     Route::get('/resultofvote', 'OrganizerController@resultofvote');
 
 
-    Route::post('/submitvoter', 'VoterselectController@submitvoter');
+    Route::post('/submitvoter1', 'VoterselectController@submitvoter');
 
 
     Route::post('/submitpost', 'PostController@submitpost');
@@ -96,10 +91,10 @@ Route::group(['middleware' => 'checkuser'], function () {
 
 
 //Govt ROuting start
-Route::post('/submitgovt','GovtController@submitlogin');
-Route::get('/govtverify','GovtController@login_verify');
-Route::post('/submitgovtverify','GovtController@submitgovtverify');
-Route::get('/govthome','GovtController@home');
+Route::post('/submitgovt', 'GovtController@submitlogin');
+Route::get('/govtverify', 'GovtController@login_verify');
+Route::post('/submitgovtverify', 'GovtController@submitgovtverify');
+Route::get('/govthome', 'GovtController@home');
 Route::get('/createannouncement', 'PostController@viewpost');
 
 Route::get('/view', 'PostController@viewpost1');
@@ -132,3 +127,53 @@ Route::post('/submitpost', 'PostController@submitpost');
 Route::get('/canpro/{id}', 'OrganizerController@viewcanpro');
 
 Route::post('/approval', 'CandidateRegController@submitapprove');
+
+
+//////////Mukti Route start
+Route::get('/govtreg', function () {
+    return view("organizer.errors-404");
+});
+
+Route::get('/govtlog', function () {
+    return view("govt.login");
+});
+
+
+//goverment form
+Route::get('/govcreate', 'GovepostController@creatform');
+
+
+Route::post('/elcpost', 'GovepostController@gvstore');
+
+Route::get('/govpost', 'GovepostController@viewfile');
+//voter form
+
+
+Route::get('/votcreate', 'VoterinfoController@vottform');
+
+
+Route::post('/submitvoter', 'VoterinfoController@votstore');
+
+
+Route::get('/voterlist', 'VoterinfoController@viewmainvote');
+
+Route::get('/logoutgov', 'VoterinfoController@viewmainvote1');
+///End
+///
+/// Ashik ROute start
+
+Route::get('/can_login', 'CandidateRegController@logincan');
+
+Route::post('/submitcanlogin','CandidateRegController@submitlogin');
+
+Route::get('/candash', 'CandidateRegController@dash');
+
+Route::get('/viewpost', 'PostController@viewpost10');
+
+Route::get('/readmore/{id}', 'PostController@viewpost22');
+
+Route::get('/resultofvote1', 'OrganizerController@resultofvote1');
+
+Route::get('/logout_can', 'VoterinfoController@viewmainvote2');
+
+Route::get('/resultview', 'OrganizerController@resultofvote12');

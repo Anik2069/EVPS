@@ -1,84 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="626c9d42-2f59-458e-a666-c059743f0612" name="Default Changelist" comment="">
+    <list default="true" id="da07a155-7b9c-4f2e-ad41-32f58a50823c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrganizerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrganizerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/candidate/errors-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/candidate/errors-404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/candidate/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/candidate/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/advance-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/advance-table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/avatar.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/avatar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/badge.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/badge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/basic-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/basic-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/basic-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/basic-table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/blank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/breadcrumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/breadcrumb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/carousel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-amchart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-amchart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-apexchart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-apexchart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-chartjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-echart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-echart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-morris.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chart-sparkline.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chart-sparkline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/checkbox-and-radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/checkbox-and-radio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/collapse.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/collapse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/datatables.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/datatables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/dropdown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/editable-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/editable-table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/email-compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/email-compose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/email-inbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/email-inbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/email-read.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/email-read.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/empty-state.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/empty-state.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/errors-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/errors-404.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/export-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/export-table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/flags.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/flags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/form-wizard.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/form-wizard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/forms-advanced-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/forms-advanced-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/forms-editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/forms-editor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gallery1.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gallery1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-advanced-route.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-advanced-route.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-draggable-marker.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-draggable-marker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-geocoding.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-geocoding.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-geolocation.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-geolocation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-marker.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-marker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-multiple-marker.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-multiple-marker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-route.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-route.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/gmaps-simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/gmaps-simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-feather.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-feather.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-font-awesome.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-font-awesome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-ionicons.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-ionicons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-material.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/icon-weather-icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/icon-weather-icon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/invoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/light-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/light-gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/list-group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/media-object.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/media-object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/multiple-upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/multiple-upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/owl-carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/owl-carousel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/popover.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/popover.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/progress.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/sweet-alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/sweet-alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/tabs.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/tabs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/toastr.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/toastr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/tooltip.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/tooltip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/vector-map.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/vector-map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/widget-chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/widget-chart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/organizer/widget-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/widget-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/organizer/voter.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/organizer/voter.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,120 +19,114 @@
       <executable />
     </execution>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="EVPS" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
-      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
-      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
-      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
-      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
-      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
-      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/umpirsky/language-list" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/jlawrence/eos" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/balping/json-raw-encoder" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
-      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
-      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/vendor/balping/json-raw-encoder" />
-      <path value="$PROJECT_DIR$/vendor/consoletvs/charts" />
-      <path value="$PROJECT_DIR$/vendor/umpirsky/language-list" />
-      <path value="$PROJECT_DIR$/vendor/consoletvs/support" />
-      <path value="$PROJECT_DIR$/vendor/jlawrence/eos" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/jenssegers/date" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/consoletvs/charts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/consoletvs/support" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1Z2SNMndObTNx9HMJ152ecYQclI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1aR6WiIZgUYX3Xv8HeZGfz4srDY" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/organizer" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/publicView" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\EVPS\resources\views\organizer" />
-      <recent name="C:\xampp\htdocs\EVPS\resources\views\publicView" />
+      <recent name="C:\xampp\htdocs\EVPS (2)_3\EVPS\EVPS\resources\views\publicView" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,31 +152,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="626c9d42-2f59-458e-a666-c059743f0612" name="Default Changelist" comment="" />
-      <created>1584035656358</created>
+      <changelist id="da07a155-7b9c-4f2e-ad41-32f58a50823c" name="Default Changelist" comment="" />
+      <created>1586686093615</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584035656358</updated>
-      <workItem from="1584035667139" duration="2286000" />
-      <workItem from="1584075846103" duration="5026000" />
-      <workItem from="1584112764641" duration="19002000" />
-      <workItem from="1584166533182" duration="5245000" />
-      <workItem from="1584209291640" duration="1789000" />
-      <workItem from="1584244621855" duration="6127000" />
-      <workItem from="1584293024800" duration="4580000" />
-      <workItem from="1584374375837" duration="7613000" />
-      <workItem from="1584453632043" duration="9507000" />
-      <workItem from="1584512525016" duration="11819000" />
-      <workItem from="1584626794115" duration="7841000" />
-      <workItem from="1584711629752" duration="17107000" />
-      <workItem from="1584883865187" duration="17695000" />
-      <workItem from="1584975466902" duration="6923000" />
-      <workItem from="1585033791848" duration="11067000" />
-      <workItem from="1585054402179" duration="10022000" />
-      <workItem from="1585833390124" duration="9726000" />
-      <workItem from="1586177820249" duration="6318000" />
-      <workItem from="1586414274584" duration="3205000" />
-      <workItem from="1586499181369" duration="4344000" />
+      <updated>1586686093615</updated>
+      <workItem from="1586686105056" duration="11328000" />
+      <workItem from="1586722515008" duration="1298000" />
+      <workItem from="1586728334262" duration="1955000" />
     </task>
     <servers />
   </component>
@@ -280,24 +183,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/organizer/registration.blade.php</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CandidateRegController.php</url>
+          <line>64</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/organizer/nav.blade.php</url>
-          <line>94</line>
+          <url>file://$PROJECT_DIR$/resources/views/organizer/result.blade.php</url>
+          <line>201</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/publicView/index.blade.php</url>
-          <line>318</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/publicView/candidate_regis.blade.php</url>
-          <line>191</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

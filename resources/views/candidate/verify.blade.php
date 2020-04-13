@@ -37,7 +37,7 @@
               </div>
               <div class="card-body">
                 <p class="text-muted">Enter Your Verfifcation Code to compelete the Registration</p>
-                <form method="POST" action = '/submitcode'>
+                <form method="POST" action = '/submitgovtverify'>
                     @csrf
                   <div class="form-group">
                     <label for="email">Verification Code</label>

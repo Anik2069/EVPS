@@ -220,7 +220,7 @@
 
 
                                 <div class="card-body">
-                                    <form method="post" action="/submitvoter">
+                                    <form method="post" action="/submitvoter1">
                                         @csrf
                                         <div class="section-title mt-0">Type</div>
                                         <div class="form-group">

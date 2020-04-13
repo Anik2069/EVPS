@@ -8,39 +8,30 @@
         <ul class="sidebar-menu">
             <li class="menu-header">Main</li>
             <li class="dropdown">
-                <a href="/dash" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+                <a href="/govthome" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
 
             <li class="dropdown">
-                <a href="/createannouncement" class="nav-link"><i data-feather="monitor"></i><span>Announcement</span></a>
-            </li>
-
-
-            <li class="dropdown">
-                <a href="/view" class="nav-link"><i data-feather="monitor"></i><span>Post Review</span></a>
+                <a href="/govcreate" class="nav-link"><i data-feather="monitor"></i><span>Announcement</span></a>
             </li>
 
 
             <li class="dropdown">
-                <a href="/voterselect" class="nav-link"><i data-feather="monitor"></i><span>Voter Add</span></a>
+                <a href="/govpost" class="nav-link"><i data-feather="monitor"></i><span>Announcement Review</span></a>
             </li>
 
 
             <li class="dropdown">
-                <a href="/canview" class="nav-link"><i data-feather="monitor"></i><span>Candidate View</span></a>
+                <a href="/votcreate" class="nav-link"><i data-feather="monitor"></i><span>Voter Add</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="/voterlist" class="nav-link"><i data-feather="monitor"></i><span>Voter List</span></a>
             </li>
 
 
-            <li class="dropdown">
-                <a href="index.blade.php" class="nav-link"><i data-feather="monitor"></i><span>Add Candidate</span></a>
-            </li>
 
             <li class="dropdown">
-                <a href="/resultofvote" class="nav-link"><i data-feather="monitor"></i><span>Voting Result</span></a>
-            </li>
-
-            <li class="dropdown">
-                <a href="index.blade.php" class="nav-link"><i data-feather="monitor"></i><span>Log Out</span></a>
+                <a href="/logoutgov" class="nav-link"><i data-feather="monitor"></i><span>Log Out</span></a>
             </li>
 
         {{--    <li class="dropdown">

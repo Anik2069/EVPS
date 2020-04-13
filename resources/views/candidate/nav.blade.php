@@ -8,39 +8,24 @@
         <ul class="sidebar-menu">
             <li class="menu-header">Main</li>
             <li class="dropdown">
-                <a href="/dash" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+                <a href="/candash" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
 
             <li class="dropdown">
-                <a href="/createpost" class="nav-link"><i data-feather="monitor"></i><span>Create a Voting post</span></a>
+                <a href="/viewpost" class="nav-link"><i data-feather="monitor"></i><span>Post Review</span></a>
             </li>
 
 
-            <li class="dropdown">
-                <a href="/view" class="nav-link"><i data-feather="monitor"></i><span>Post Review</span></a>
-            </li>
+
+
 
 
             <li class="dropdown">
-                <a href="/voterselect" class="nav-link"><i data-feather="monitor"></i><span>Voter Category Selection</span></a>
-            </li>
-
-
-            <li class="dropdown">
-                <a href="index.blade.php" class="nav-link"><i data-feather="monitor"></i><span>Candidate View</span></a>
-            </li>
-
-
-            <li class="dropdown">
-                <a href="index.blade.php" class="nav-link"><i data-feather="monitor"></i><span>Add Candidate</span></a>
+                <a href="/resultofvote1" class="nav-link"><i data-feather="monitor"></i><span>Voting Result</span></a>
             </li>
 
             <li class="dropdown">
-                <a href="index.blade.php" class="nav-link"><i data-feather="monitor"></i><span>Voting Result</span></a>
-            </li>
-
-            <li class="dropdown">
-                <a href="index.blade.php" class="nav-link"><i data-feather="monitor"></i><span>Log Out</span></a>
+                <a href="/logout_can" class="nav-link"><i data-feather="monitor"></i><span>Log Out</span></a>
             </li>
 
         {{--    <li class="dropdown">
